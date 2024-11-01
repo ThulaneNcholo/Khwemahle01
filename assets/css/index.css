@@ -1,0 +1,335 @@
+:root {
+  --primary_color: #990102;
+  --secondary_color: rgb(10, 29, 53);
+  --orange_color: #f25334;
+  --white_color: rgb(255, 255, 255);
+  --background_color: #f1f3f2;
+}
+
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--secondary_color);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 100px;
+}
+
+/* Animation Overflow  */
+.overflow_content {
+  overflow: hidden !important;
+}
+
+.section_space {
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+/* Navbar style start  */
+.navbar_logo {
+  object-fit: contain;
+  height: 80px;
+  width: 80px;
+}
+
+.navbar_links {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--secondary_color);
+}
+
+.navbar_chevron {
+  color: var(--primary_color);
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.navbar_menu_btn {
+  background-color: var(--secondary_color) !important;
+}
+
+.navbar_menu_icon {
+  font-size: 22px;
+  color: white;
+}
+
+.navbar_btn {
+  background-color: var(--secondary_color);
+  color: white;
+  font-family: "Marcellus", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.offcanvas_background {
+  background-color: var(--secondary_color);
+}
+
+.offcanvas_logo {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.btn-close {
+  filter: invert(1) brightness(2); /* Inverts color to white */
+  opacity: 1;
+}
+
+/* Cover Image style start  */
+.cover_sub_title {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.cover_title {
+  font-family: "Marcellus", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.btn_contact {
+  background-color: var(--primary_color);
+  color: white;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Services style start  */
+.border_right {
+  border-right: 1px solid #ececec;
+}
+
+.service_sub_title {
+  color: var(--primary_color);
+}
+
+.service_point_arrow_icons {
+  color: var(--secondary_color);
+  font-size: 12px;
+}
+
+.service_title {
+  color: rgb(10, 29, 53) !important;
+  /* font-weight: 600 !important;  */
+}
+
+.service_icon {
+  font-size: 60px;
+  color: var(--primary_color);
+}
+
+.service_card_title {
+  font-family: "Marcellus", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--secondary_color);
+}
+
+.more_service_icon {
+  color: var(--primary_color);
+  font-size: 30px;
+}
+
+/* About Us style Start  */
+.about_background {
+  background-color: #990101;
+}
+
+.about_image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+/* Owners Words style start  */
+.over_image {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.owner_background {
+  background-color: var(--secondary_color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.owners_cover_image {
+  height: 700px;
+  width: 50%;
+  object-fit: cover;
+}
+
+.owners_background_card {
+  background-color: var(--secondary_color);
+  height: 700px;
+  width: 50%;
+  object-fit: cover;
+}
+
+.ceo_deco_underline {
+  height: 0.2px;
+  width: 100%;
+  background-color: white;
+}
+
+/* why Join Us Style start  */
+.join_title {
+  color: var(--secondary_color) !important;
+}
+
+.number_color {
+  color: var(--primary_color) !important;
+}
+
+.partner_underline {
+  background-color: var(--secondary_color);
+  height: 0.5px;
+  width: 100%;
+}
+
+/* Team style start  */
+.team_sub_heading {
+  color: var(--primary_color);
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.team_heading {
+  color: var(--secondary_color);
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.team_logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgba(10, 29, 53, 0.517);
+  object-fit: contain;
+}
+
+.team_logo_white {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: var(--secondary_color);
+  object-fit: contain;
+}
+
+.team_name {
+  font-family: "Marcellus", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--secondary_color);
+}
+
+.team_image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.expirience_text {
+  color: var(--primary_color);
+}
+
+.team_background {
+  background-color: #faf6f3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.new_team_image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Client style start  */
+.client_image {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.client_background {
+  background-color: var(--secondary_color);
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.carousel_padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carousel_icon {
+  font-size: 60px;
+  color: white;
+}
+
+/* Partner Image  */
+.partner_image {
+  height: 600px;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Contact Style Start  */
+.contact_container {
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_icon {
+  color: var(--primary_color);
+  font-size: 30px;
+}
+
+/* Footer Style start  */
+.footer_logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: white;
+}
+
+.footer_underline {
+  background-color: lightgrey;
+  height: 0.5px;
+  width: 100%;
+}
